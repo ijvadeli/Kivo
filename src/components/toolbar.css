@@ -22,24 +22,19 @@
     margin-left: auto;
 }
 
+button {
+    font-family: monospace;
+}
+
 #titlebar-minimize {
     background-color: rgb(255, 204, 0);
     border: 1.5px solid #333;
-    border-radius: 10px;
-    width: 16px;
-    height: 16px;
 }
 #titlebar-maximize {
     background-color: rgb(110, 202, 68);
     border: 1.5px solid #333;
-    border-radius: 10px;
-    width: 16px;
-    height: 16px;
 }
 #titlebar-close {
     background-color: rgb(230, 87, 87);
     border: 1.5px solid #333;
-    border-radius: 10px;
-    width: 16px;
-    height: 16px;
 }
