@@ -1,0 +1,45 @@
+#titlebar {
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    height: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    user-select: none;
+    height: 32px;
+}
+
+#buttons {
+    display: flex;
+    gap: 1.5px;
+    margin-left: auto;
+}
+
+#titlebar-minimize {
+    background-color: rgb(255, 204, 0);
+    border: 1.5px solid #333;
+    border-radius: 10px;
+    width: 16px;
+    height: 16px;
+}
+#titlebar-maximize {
+    background-color: rgb(110, 202, 68);
+    border: 1.5px solid #333;
+    border-radius: 10px;
+    width: 16px;
+    height: 16px;
+}
+#titlebar-close {
+    background-color: rgb(230, 87, 87);
+    border: 1.5px solid #333;
+    border-radius: 10px;
+    width: 16px;
+    height: 16px;
+}
