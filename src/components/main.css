@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Mono';
+  src: url('/fonts/GeistMono-VariableFont_wght.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Sans';
+  src: url('/fonts/Geist-VariableFont_wght.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+#input-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#buttons {
+    display: flex;
+    height: 30px;
+    background-color: #151515;
+}
+
+#input-field {
+    font-family: 'Mono', monospace;
+    border: none;
+    outline: none;
+    background-color: #111;
+    color: lightgray;
+    height: 100%;
+    padding: 10px;
+}
+
+button {
+    font-family: 'Sans', sans-serif;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: lightgray;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #FF7444;
+}
