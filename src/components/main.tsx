@@ -56,7 +56,7 @@ export default function Main() {
             },
           ],
 
-          defaultPath: "note.md",
+          defaultPath: "untitled.md",
         });
 
         if (!path) return;
