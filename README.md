@@ -1,7 +1,30 @@
-# Tauri + React + Typescript
+# Kivo - Notes made Easier
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+Kivo is a simple text editor I build in Tauri with React and Typescript.
+It's made to be as lightweight as possible and not using external API's.
+Kivo currently uses the Geist and Geist Mono font for the editor.
 
-## Recommended IDE Setup
+Run Kivo:
+- Unzip the folder
+- Navigate to folder in terminal or in VSCode
+- Run `pnpm install`
+- Run `pnpm tauri dev`
+- A window will pop-up with Kivo running after compiling
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+## Features
+
+The current features and features that are planned for the future
+
+#### Current
+- Save files
+- Save as
+- Overwrite files
+- Open files
+- Clear text area
+
+#### Future
+- Keybinds
+- Line number
+- Markdown preview
+- Syntax highlighting
+- Settings (Color scheme, dark and light mode, keymapping)
