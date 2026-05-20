@@ -10,6 +10,7 @@ Run Kivo:
 - Run `pnpm install`
 - Run `pnpm tauri dev`
 - A window will pop-up with Kivo running after compiling
+- You can also do `pnpm tauri build` which will create an installer that you can run
 
 ## Features
 
