@@ -1,0 +1,32 @@
+#input-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#input-field {
+    border: none;
+    outline: none;
+    background-color: #111;
+    color: lightgray;
+    height: 100%;
+    padding: 10px;
+}
+
+#buttons {
+    display: flex;
+    height: 30px;
+    background-color: #222;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: lightgray;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #FF7444;
+}
