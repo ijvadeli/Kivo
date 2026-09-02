@@ -1,6 +1,12 @@
+/*--- Global app styling ---*/
+
+* {
+    font-variant-ligatures: none;
+}
+
 body {
-  background-color: #111;
-  color: white;
+  background-color: #2b2d30;
+  color: #bdbdbd;
   font-weight: 100;
   font-family: monospace;
   padding: 0;

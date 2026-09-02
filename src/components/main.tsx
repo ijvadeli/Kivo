@@ -120,6 +120,7 @@ export default function Main() {
 
       <textarea
         id="input-field"
+        spellCheck="false"
         value={val}
         onChange={(e) => setVal(e.target.value)}
       />
