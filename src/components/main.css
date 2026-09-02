@@ -1,17 +1,19 @@
+/*--- Editor styling ---*/
+
 @font-face {
   font-family: 'Mono';
   src: url('/fonts/GeistMono-VariableFont_wght.ttf') format('truetype');
   font-style: normal;
-  font-weight: 400;
 }
 
 @font-face {
   font-family: 'Sans';
   src: url('/fonts/Geist-VariableFont_wght.ttf') format('truetype');
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
 }
 
+/*--- Top bar ---*/
 #input-container {
     display: flex;
     flex-direction: column;
@@ -21,17 +23,7 @@
 #buttons {
     display: flex;
     height: 30px;
-    background-color: #151515;
-}
-
-#input-field {
-    font-family: 'Mono', monospace;
-    border: none;
-    outline: none;
-    background-color: #111;
-    color: lightgray;
-    height: 100%;
-    padding: 10px;
+    background-color: #2b2d30;
 }
 
 button {
@@ -39,10 +31,29 @@ button {
     border: none;
     outline: none;
     background-color: transparent;
-    color: lightgray;
+    color: #bdbdbd;
 }
 
 button:hover {
     cursor: pointer;
     color: #FF7444;
+}
+
+/*--- Text field styling ---*/
+#input-field {
+    font-family: 'Mono', monospace;
+    border: none;
+    outline: none;
+    background-color: #262626;
+    color: #bdbdbd;
+    height: 100%;
+    margin: 0px 14px;
+    margin-bottom: 14px;
+    padding: 7px 14px;
+    line-height: 22px;
+    resize: none;
+    border-radius: 14px;
+    scrollbar-width: thin;
+    scrollbar-color: #2b2d30 #262626;
+    font-size: 14px;
 }
